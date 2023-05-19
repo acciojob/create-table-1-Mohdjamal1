@@ -1,5 +1,5 @@
 function insert_Row() {
-    const myTable = documen.querySelector('#sampleTable');
+    const myTable = document.querySelector('#sampleTable');
 	
 	let tr = document.createElement('tr');
 	const td1 = document.createElement('td');
