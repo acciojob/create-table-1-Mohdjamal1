@@ -8,6 +8,6 @@ function insert_Row() {
 	td2.innerText = "New Cell2";
 	tr.append(td1);
 	tr.append(td2);
-	myTable.append(tr);
+	myTable.insertBefore(tr,myTable.childNodes[0]);
 }
   
